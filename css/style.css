@@ -1,0 +1,150 @@
+.st4 {
+  animation-name: draw-1;
+  animation-delay: .2s;
+  animation-duration: 3.5s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards; 
+
+}
+
+@keyframes draw-1 {
+  to{
+    stroke-dashoffset: 0;
+  }
+}
+
+.st3 {
+  animation-name: draw-3;
+  animation-delay: .2s;
+  animation-duration: 3.5s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards; 
+}
+
+@keyframes draw-3 {
+  to{
+    stroke-dashoffset: 0;
+  }
+}
+
+.st5 {
+  animation-name: draw-2;
+  animation-delay: 4.3s;
+  animation-duration: 2.5s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards; 
+  
+}
+
+@keyframes draw-2 {
+  to{
+    stroke-dashoffset: 0;
+  }
+}
+
+
+.st1 {
+  animation-name: square-fill;
+  animation-duration: 14.5s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards; 
+
+  transition-duration: 1s;
+}
+
+@keyframes square-fill {
+  to { 
+    
+    transition-delay: 13s;
+    fill:  #FEB546;
+    transition
+  }
+}
+
+.st2 {
+  animation-name: round-fill;
+  animation-duration: 15s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards; 
+
+  transition-duration: ;
+}
+
+@keyframes round-fill {
+  to { 
+    
+    transition-delay: 13s;
+    fill:  #5E85FE;
+    stroke: #5E85FE;
+  }
+}
+
+.st8{
+  animation-name: round-fillin;
+  animation-duration: 10s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes round-fillin {
+0% {
+  fill:  none;
+}
+
+77% {
+  fill:  none;
+  transform: translate(0px, 0px);
+}
+
+82% {
+  fill:  #5E85FE;
+  transform: translate(0px, 0px);
+}
+
+85% {
+  fill:  #5E85FE;
+       transform: translate(-100px, -200px);
+}
+
+88% { 
+    fill:  #5E85FE;
+       transform: translate(-600px, -300px);
+  }
+
+92% { 
+    fill:  #5E85FE;
+       transform: translate(200px, -300px);
+  }
+
+95% { 
+    fill:  #5E85FE;
+       transform: translate(600px, -700px);
+
+
+  }
+
+97% { 
+    fill:  #5E85FE;
+       transform: translate(600px, -50px);
+
+
+  }
+
+100% { 
+    fill:  #5E85FE;
+       transform: translate(0px, 0px);
+  }
+
+
+.row {
+  display: flex;
+  position: absolute; 
+}
+
+.back{
+  position: absolute;
+  z-index: 10;
+}
+
+.round{
+  position: absolute;
+}
